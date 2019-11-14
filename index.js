@@ -1,5 +1,7 @@
 "use strict";
 const request = require("superagent");
+require('dotenv').config()
+
 const calculator = require("./aqi");
 
 const AIRVISUAL_URL = process.env.AIRVISUAL_URL;
